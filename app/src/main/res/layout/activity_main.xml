@@ -5,11 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
     <VideoView
         android:id="@+id/videoView"
         android:layout_width="match_parent"
-        android:layout_height="253dp" />
+        android:layout_height="253dp"
+        />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -21,4 +30,6 @@
 
     </LinearLayout>
 </ScrollView>
+    </LinearLayout>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
